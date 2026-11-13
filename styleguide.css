@@ -8,25 +8,70 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
+    html {
+        color-scheme: light dark;
+    --color: light-dark #3F2A14, #E5DCBC;
+    --bg: light-dark( #E5DCBC, #3F2A14) ; }
+    body {
+        background-color: var(--bg);
+    }
+    h1{
+        color: var(--color);
+    }
+    input{
+        border-color: var(--color);
+        background-color: var(--bg);
+    }
     .color-example {
         background-color: #B58A38;
     }
 
-    .kleur1{
-        background-color: #99CC99;
+    .Background {
+        background-color: #E5DCBC;
     }
-    .kleur2{
-        background-color: #72583C;
+    .Frontcolor{
+        background-color: #3F2A14;
     }
 
-    .kleur3{
+    .Popups{
         background-color: #E5DCBC;
+    }
+
+     .Title {
+        background-color: #99cc99;
+    }
+.Kaartjes{
+        background-color: #99CCCC;
     }
     
 
         
 
     /* Typografie */
+    .h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .p1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
 
 
     /* Formulier elementen */
