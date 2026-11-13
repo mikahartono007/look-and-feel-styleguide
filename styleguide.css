@@ -9,8 +9,22 @@
 
     /* Kleuren */
     .color-example {
-        background-color: #bada55;
+        background-color: #B58A38;
     }
+
+    .kleur1{
+        background-color: #99CC99;
+    }
+    .kleur2{
+        background-color: #72583C;
+    }
+
+    .kleur3{
+        background-color: #E5DCBC;
+    }
+    
+
+        
 
     /* Typografie */
 
@@ -18,3 +32,4 @@
     /* Formulier elementen */
 
 }
+
