@@ -76,6 +76,13 @@
 
     /* Formulier elementen */
 
+    /*button*/
+    .button{
+    width: 65px;
+    height: 33px;
+    border-radius: 5px;
+    }
+
 
 
 
