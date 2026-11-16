@@ -102,7 +102,22 @@
     background-color: #99CCCC;
     }
 
+    /*icons*/
+    .icons {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    gap: 20px; 
+    background-color: white;
+    width: max-content;
+    
+    padding: 1rem;
+    border-radius: 1em;
+    }
 
+    .icons img {
+    width: 75px;
+    height: auto;
+    }
 
 
 }
