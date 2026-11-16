@@ -10,7 +10,7 @@
     /* Kleuren */
     html {
         color-scheme: light dark;
-    --color: light-dark #3F2A14, #E5DCBC;
+    --color: light-dark( #3F2A14, #E5DCBC) ;
     --bg: light-dark( #E5DCBC, #3F2A14) ; }
     body {
         background-color: var(--bg);
@@ -28,20 +28,25 @@
 
     .Background {
         background-color: #E5DCBC;
+        Border: 3px solid #030303
     }
     .Frontcolor{
         background-color: #3F2A14;
+        Border: 3px solid #030303
     }
 
     .Popups{
         background-color: #E5DCBC;
+        Border: 3px solid #030303 
     }
 
      .Title {
         background-color: #99cc99;
+        Border: 3px solid #030303 
     }
 .Kaartjes{
         background-color: #99CCCC;
+        Border: 3px solid #030303 
     }
     
 
