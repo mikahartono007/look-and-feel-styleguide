@@ -27,33 +27,58 @@
         border-color: var(--color);
         background-color: var(--bg);
     }
-    .color-example {
-        background-color: #B58A38;
+
+    /* Light mode kleuren */
+    .l-bg-page {
+        background-color: #E5DCBC;
+        Border: 1.5px solid #030303
     }
 
-    .Background {
-        background-color: #E5DCBC;
-        Border: 3px solid #030303
-    }
-    .Frontcolor{
+    .l-primary{
         background-color: #3F2A14;
-        Border: 3px solid #030303
+        Border: 1.5px solid #030303
     }
 
-    .Popups{
-        background-color: #E5DCBC;
-        Border: 3px solid #030303 
+    .l-bg-surface{
+        background-color: #E2C286;
+        Border: 1.5px solid #030303 
     }
 
-     .Title {
+    .l-color-accent {
         background-color: #99cc99;
-        Border: 3px solid #030303 
+        Border: 1.5px solid #030303 
     }
-    .Kaartjes{
+    .l-bg-surface-hover{
         background-color: #99CCCC;
-        Border: 3px solid #030303 
+        Border: 1.5px solid #030303 
     }
     
+    /* Dark mode kleuren */
+    .d-bg-page {
+        background-color: #3F2A14;
+        Border: 1.5px solid #030303
+    }
+
+    .d-primary{
+        background-color: #F6EBDB;
+        Border: 1.5px solid #030303
+    }
+
+    .d-bg-surface{
+        background-color: #E2C286;
+        Border: 1.5px solid #030303 
+    }
+
+    .d-color-accent {
+        background-color: #E5DCBC;
+        Border: 1.5px solid #030303 
+    }
+    .d-bg-surface-hover{
+        background-color: #CAF1F1;
+        Border: 1.5px solid #030303 
+    }
+    
+
 
         
 
@@ -111,7 +136,6 @@
     gap: 20px; 
     background-color: white;
     width: max-content;
-    
     padding: 1rem;
     border-radius: 1em;
     }
