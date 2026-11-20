@@ -10,6 +10,8 @@
 
     /* Kleuren */
     :root{
+
+        
         --font-family: 'Montserrat', sans-serif;
     }
     html {
@@ -90,11 +92,11 @@
         font-style: italic;
     }
 
-
     /* Formulier elementen */
 
     /*button*/
     .button{
+    font-family: var(--font-family);   
     border-radius: 5em;
     padding: .5rem;
     display: inline-block;
@@ -111,6 +113,7 @@
     }
 
     .button:hover {
+    font-family: var(--font-family);
     color: #3F2A14;
     background-color: #99CCCC;
     }
