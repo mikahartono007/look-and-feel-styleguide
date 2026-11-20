@@ -58,7 +58,7 @@
     }
     
     /* Typografie */
-    .h1, .h2, .h3 {
+    h1, h2, h3 {
         font-family: var(--font-family);
         font-weight:bold; 
     }
@@ -76,7 +76,7 @@
     }
     
     /* lopende tekst */
-    .p, ul, li, ol, a, button{
+    p, ul, li, ol, a, button{
         font-family: var(--font-family);
         font-size: 1.0rem;
     }
