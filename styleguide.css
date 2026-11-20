@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 /* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
@@ -8,6 +9,9 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
+    .root{
+        --font-family: 'Montserrat', sans-serif;
+    }
     html {
         color-scheme: light dark;
     --color: light-dark( #3F2A14, #E5DCBC) ;
@@ -15,9 +19,7 @@
     body {
         background-color: var(--bg);
     }
-    h1{
-        color: var(--color);
-    }
+    
     input{
         border-color: var(--color);
         background-color: var(--bg);
@@ -53,29 +55,17 @@
         
 
     /* Typografie */
-    .h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-    .h2 {
-        font-family: 'Montserrat', sans-serif;
+    .h1 .h2 .h3 {
+        font-family: var(--font-family);
         font-size: 1.5rem;
-        font-weight: bold;
+        font-weight:bold; 
     }
 
-    .h3 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
-    
+  
     .p{
         font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
     }
-
 
 
     /* Formulier elementen */
