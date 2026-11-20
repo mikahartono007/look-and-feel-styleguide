@@ -10,12 +10,13 @@
 
     /* Kleuren */
     :root{
-
+        background-color: #E5DCBC;
+        
         
         --font-family: 'Montserrat', sans-serif;
     }
     html {
-        color-scheme: light dark;
+     color-scheme: light dark;
     --color: light-dark( #3F2A14, #E5DCBC) ;
     --bg: light-dark( #E5DCBC, #3F2A14) ; }
     
@@ -35,6 +36,7 @@
     .Background {
         background-color: #E5DCBC;
         Border: 3px solid #030303
+        
     }
     .Frontcolor{
         background-color: #3F2A14;
