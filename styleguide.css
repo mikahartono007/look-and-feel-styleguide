@@ -55,9 +55,9 @@
   }
 }
 
-
     body {
-        background-color: var(--bg);
+        background-color: var(--bg-page);
+        color: var(--color-primary);
         font-family: var(--font-family);
     }
     
@@ -67,18 +67,18 @@
     }
     
     /* Light mode cirkels */
-    .l-bg-page { background-color: #E5DCBC; border: 3px solid #030303; }
-    .l-primary { background-color: #3F2A14; border: 3px solid #030303; }
-    .l-bg-surface { background-color: #E2C286; border: 3px solid #030303; }
-    .l-color-accent { background-color: #99CC99; border: 3px solid #030303; }
-    .l-bg-surface-hover { background-color: #99CCCC; border: 3px solid #030303; }
+    .l-bg-page { background-color: #E5DCBC; border: 2px solid #030303; }
+    .l-primary { background-color: #3F2A14; border: 2px solid #030303; }
+    .l-bg-surface { background-color: #E2C286; border: 2px solid #030303; }
+    .l-color-accent { background-color: #99CC99; border: 2px solid #030303; }
+    .l-bg-surface-hover { background-color: #99CCCC; border: 2px solid #030303; }
 
     /* Dark mode cirkels */
-    .d-bg-page { background-color: #3F2A14; border: 3px solid #030303; }
-    .d-primary { background-color: #F6EBDB; border: 3px solid #030303; }
-    .d-bg-surface { background-color: #E2C286; border: 3px solid #030303; }
-    .d-color-accent { background-color: #E5DCBC; border: 3px solid #030303; }
-    .d-bg-surface-hover { background-color: #CAF1F1; border: 3px solid #030303; }
+    .d-bg-page { background-color: #3F2A14; border: 2px solid #030303; }
+    .d-primary { background-color: #F6EBDB; border: 2px solid #030303; }
+    .d-bg-surface { background-color: #E2C286; border: 2px solid #030303; }
+    .d-color-accent { background-color: #E5DCBC; border: 2px solid #030303; }
+    .d-bg-surface-hover { background-color: #CAF1F1; border: 2px solid #030303; }
 
     
     /* Typografie */
