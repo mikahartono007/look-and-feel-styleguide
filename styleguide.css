@@ -12,12 +12,35 @@
     :root{
         background-color: #E5DCBC;
         
-        
+        /* Lettertype */
         --font-family: 'Montserrat', sans-serif;
+
+        /* Lettergroottes */
+        --font-size-h1: 1.5rem;
+        --font-size-h2: 1.25rem;
+        --font-size-h3: 1.125rem;
+        --font-size-body: 1rem;
+        --font-size-micro: 0.875rem;
+
+        /* Letterdikktes */
+        --font-weight-regular: 400;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 700;
+         
+        /* Regelhoogte */
+        --line-height: 1.5;
+        --line-height-heading: 1.2;
+
+        /* Spacing */
+        --space-xs: 0.25rem;
+        --space-sm: 0.5rem;
+        --space-md: 1rem;
+        --space-lg: 1.5rem;
+        --space-xl: 2rem; 
     }
     html {
      color-scheme: light dark;
-    --color: light-dark( #3F2A14, #E5DCBC) ;
+    --color: light-dark( #3F2A14, #E5DCBC);
     --bg: light-dark( #E5DCBC, #3F2A14) ; }
     
     body {
@@ -36,7 +59,7 @@
     .Background {
         background-color: #E5DCBC;
         Border: 3px solid #030303
-        
+
     }
     .Frontcolor{
         background-color: #3F2A14;
@@ -98,7 +121,8 @@
 
     /*button*/
     .button{
-    font-family: var(--font-family);   
+    font-family: var(--font-family);  
+    font-size: 1.0rem; 
     border-radius: 5em;
     padding: .5rem;
     display: inline-block;
