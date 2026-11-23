@@ -84,37 +84,39 @@
     /* Typografie */
     h1, h2, h3 {
         font-family: var(--font-family);
-        font-weight:bold; 
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-heading);
     }
 
     .h1 {
-    font-size: 1.5rem;    /* 24px */
+    font-size: var(--font-size-h1);    /* 24px */
     }
 
     .h2 {
-    font-size: 1.25rem;   /* 20px */
+    font-size: var(--font-size-h2);   /* 20px */
     }
 
     .h3 {
-    font-size: 1.125rem;  /* 18px */
+    font-size: var(--font-size-h3);  /* 18px */
     }
     
     /* lopende tekst */
     p, ul, li, ol, a, button{
         font-family: var(--font-family);
-        font-size: 1.0rem;
+        font-size: var(--font-size-body);
+        line-height: var(--line-height);
     }
 
     .p1 {
         font-family: var(--font-family);
-        font-size: 1.0rem;
+        font-size: var(--font-size-body);
         font-style: italic;
-        font-weight: 600;
+        font-weight: var(--font-weight-semibold);
     }
 
     blockquote p {
         font-family: var(--font-family);
-        font-size: 1.0rem;
+        font-size: var(--font-size-body);
         font-style: italic;
     }
 
