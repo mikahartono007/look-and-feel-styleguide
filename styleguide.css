@@ -83,7 +83,6 @@
     
     /* Typografie */
     h1, h2, h3 {
-        font-family: var(--font-family);
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-heading);
     }
@@ -102,20 +101,17 @@
     
     /* lopende tekst */
     p, ul, li, ol, a, button{
-        font-family: var(--font-family);
         font-size: var(--font-size-body);
         line-height: var(--line-height);
     }
 
     .p1 {
-        font-family: var(--font-family);
         font-size: var(--font-size-body);
         font-style: italic;
         font-weight: var(--font-weight-semibold);
     }
 
     blockquote p {
-        font-family: var(--font-family);
         font-size: var(--font-size-body);
         font-style: italic;
     }
