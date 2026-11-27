@@ -119,24 +119,23 @@
     /* Formulier elementen */
 
     /*button*/
-    .button{
+    .button {
     font-family: var(--font-family);  
     font-size: 1.0rem; 
     border-radius: 5em;
-    padding: .5rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
     margin-top: 15px;
     color: #3F2A14;
-    background-color: #E5DCBC;
+    background-color: var(--bg-surface);
     border: 2px solid #3F2A14;
     box-shadow: 0px 1px 4px black;;
-    }
 
-    .button:hover {
-    font-family: var(--font-family);
-    color: #3F2A14;
-    background-color: #99CCCC;
+    &:hover {
+    background-color: var(--bg-surface-hover);
+    
     }
+}
 
     /*icons*/
     .icons {
